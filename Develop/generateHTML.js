@@ -170,5 +170,48 @@ function generateHTML(data) {
             zoom: .75; 
           } 
          }
-      </style>`
-        }
+      </style>
+      <body>
+      <header>
+      <div class="wrapper">
+      <div class ="photoheader">
+      <img src="${data.portPic}">
+      <h1>Hi!</h1>
+      <h2>My name is ${data.name} </h2>
+      <h2>Currently @ ${data.company} </h2>
+      <div class="links-nav">
+      <a class="nav-link" href="https://www.google.com/maps/place/${data.location.split(' ')[0]}+${data.location.split(' ')[1]}">${data.location}</a>
+      <a class="nav-link" href="https://github.com/${data.username}">github</a>
+      <a class="nav-link" href="${data.blog}">blog</a>
+      </div>
+      </div>
+      </div>
+      </header>
+      <div class="container"> 
+      <div class ="row">
+      <div class = "col-12">
+      <h1>${data.bio}</h1>
+      </div>
+      <div class="row">
+      <div class="card col-6">
+      <h2> Public Repositories</h2>
+      ${data.numOfrepo}
+      </div>
+      <div class="card col-6">
+      <h2>Followers</h2>
+      ${data.followers}
+      </div>
+      <div class="card col-6">
+      <h2>Github Stars</h2>
+      ${data.followers}
+      </div>
+      <div class="card col-6">
+      <h2>Following</h2>
+      ${data.following}
+      </div>
+      </div>
+      </div>
+      </div>
+     
+
+        `};
