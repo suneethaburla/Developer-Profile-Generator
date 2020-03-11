@@ -175,7 +175,7 @@ function generateHTML(data) {
       <header>
       <div class="wrapper">
       <div class ="photoheader">
-      <img src="${data.portPic}">
+      <img src="${data.profilePic}">
       <h1>Hi!</h1>
       <h2>My name is ${data.name} </h2>
       <h2>Currently @ ${data.company} </h2>
