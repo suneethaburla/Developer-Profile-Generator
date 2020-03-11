@@ -66,5 +66,5 @@ THEN a PDF profile is generated
 ![alt htmlProfile1](assets/html-1.png)
 ![alt htmlProfile2](assets/html-2.png)
 * Here is a video of the app functionality
-![Watch the video](assets/app_func.mov)
+![gif](./assets/app_func.gif)
 
