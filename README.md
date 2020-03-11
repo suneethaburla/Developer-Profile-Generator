@@ -64,6 +64,7 @@ THEN a PDF profile is generated
 ## Screenshots of the application
 * Here is a screenshot of the developer profile in html format
 ![alt htmlProfile1](assets/html-1.png)
+* Screenshot-2
 ![alt htmlProfile2](assets/html-2.png)
 * Here is a video of the app functionality
 ![gif](./assets/app_func.gif)
